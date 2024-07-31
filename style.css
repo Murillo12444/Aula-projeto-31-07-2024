@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.dados {
+    text-align: center;
+}
+
+/*  Formatar a imagem com cantos arredondados ( */
+.perfil {
+    border-radius: 50%;
+}
+
+/* Formatar Titulo com ID */
+#cv {
+    font-family: "Pacifico", cursive;
+    color: firebrick;
+    font-size: 35px;
+}
+
+/* Formatando logo Paris */
+.logoParis {
+    width: 150px;
+    height: 150px;
+    margin-right: 50px;
+    /* Colocando borda na imagem */
+    border: 8px solid red;
+    border-radius: 30%;
+}
+
+.titulo {
+    background-color: black;
+    font-family: "Pacifico", cursive;
+    color: yellow;
+
+}
+
+/* Colocando uma imagem */
+
+.box{
+    width: 350px;
+    /* O alinhamento da <div> */
+    display: inline-block;
+    /* Mudando a margem na <div> */
+    margin-right: 150px;
+    /* colocando borda na <div> */
+    border-style: solid;
+    border-color: red;
+}
